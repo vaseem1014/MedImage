@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medical website</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <!-- Add this inside the <body>, just before the closing </body> tag -->
+    <script>
+      window.botpressWebChat = {
+        config: {
+          botId: "D946MXC4", // from your config URL
+          hostUrl: "https://cdn.botpress.cloud/webchat/v2.4",
+          messagingUrl: "https://messaging.botpress.cloud",
+          clientId: "D946MXC4",
+          webhookId: "webhook",
+          lazySocket: true,
+          themeName: "prism",
+          botName: "Virtual Assistant",
+          avatarUrl: "https://cdn-icons-png.flaticon.com/512/4712/4712104.png",
+          stylesheet: "https://cdn.botpress.cloud/webchat/v2.4/themes/prism.css"
+        }
+      };
+    </script>
+
+    <script
+      src="https://cdn.botpress.cloud/webchat/v2.4/webchat.js"
+      async
+    ></script>
+
+    
+    
+
+  </body>
+</html>
